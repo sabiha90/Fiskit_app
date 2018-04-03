@@ -1,0 +1,9 @@
+Step 1: The user should use the url "localhost:8000/getRecent to retrieve the 10 most recent users
+
+Step 2: The user should login using the URL, "localhost:8000/login" with the credentials 
+	username: admin
+	password: admin
+
+Step 3: After logging in, the user can retrieve the users with the most number of followers and the users who made the latest comments
+
+I have made a new users table for logging in users and rename the current users table to users_new
