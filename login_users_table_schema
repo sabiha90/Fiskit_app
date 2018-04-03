@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `remember_token` varchar(100) collate utf8_unicode_ci default NULL,
   PRIMARY KEY  (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
- 
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+
 INSERT INTO `users` (`id`, `username`, `password`, `remember_token`) VALUES
   (1, 'admin', '$2y$10$3T5VWug6d3KdLh1.l8J2x.8WMAjZ3tPxACvpUb7XToWQoFgjjEGWi', '');
